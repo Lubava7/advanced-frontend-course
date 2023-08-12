@@ -7,8 +7,7 @@
     "webpack": "./node_modules/.bin/webpack",
     "start": "webpack serve --env port=3000",
     "build:prod": "webpack --env mode=production",
-    "build:dev": "webpack --env mode=development",
-    "lubava-webpack-boilerplate": "./bin/start.js"
+    "build:dev": "webpack --env mode=development"
   },
   "keywords": [],
   "author": "",
