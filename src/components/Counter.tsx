@@ -13,7 +13,7 @@ export const Counter: FC = () => {
     setCount(count + 1);
   };
   return (
-    <div className={classes.content}>
+    <div>
       <h1>{count}</h1>
       <button onClick={increment}>click</button>
       cdfrfrf

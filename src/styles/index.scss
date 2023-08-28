@@ -1,9 +1,13 @@
-* {
-  color: red;
-  margin: 0;
-  padding: 0;
-}
+@import "variables/global";
+@import "themes/dark";
+@import "themes/light";
+@import "reset";
 
 .app {
-  font-size: 50px;
+  font: var(--font-m);
+
+  background: var(--bg-color);
+  color: var(--primary-color);
+
+  min-height: 100vh;
 }
