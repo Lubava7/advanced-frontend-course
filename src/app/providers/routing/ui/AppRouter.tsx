@@ -1,8 +1,8 @@
 import { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import { PrivateRoutes } from "./config";
+import { PrivateRoutes } from "../../routing/config";
 
-const RoutesWrapper = () => {
+const AppRouter = () => {
   return (
     <Suspense fallback={<p>... Loading</p>}>
       <Routes>
@@ -14,4 +14,4 @@ const RoutesWrapper = () => {
   );
 };
 
-export default RoutesWrapper;
+export default AppRouter;

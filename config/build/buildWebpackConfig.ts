@@ -23,7 +23,7 @@ export function buildWebpackConfig(
     module: {
       rules: buildLoaders(options),
     },
-    resolve: buildResolvers(),
+    resolve: buildResolvers(options),
     // devtool: "inline-cheap-source-map",
     devtool: isDev ? "inline-source-map" : undefined,
     devServer: isDev ? buildDevServer(options) : undefined, // нужен для того чтобы вручную не пересобирать проект а видеть изменения сразу после сохранения

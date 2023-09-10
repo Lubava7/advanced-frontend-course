@@ -1,0 +1,22 @@
+{
+  "TS Function": {
+    "prefix": ["rafcc"],
+    "body": [
+      "import { FC } from 'react';",
+      "import { Link } from 'react-router-dom';",
+      "",
+      "interface $TM_FILENAME_BASEProps {",
+      "  classname?: string;",
+      "}",
+      "",
+      "export const $TM_FILENAME_BASE: FC<$TM_FILENAME_BASEProps> = ({ classname }) => {",
+      "  return (",
+      "    <div className={classNames(cls.$TM_FILENAME_BASE, {}, [classname])}>",
+      "    </div>",
+      "  );",
+      "};",
+      ""
+    ],
+    "description": "React functional component with props interface and export."
+  }
+}

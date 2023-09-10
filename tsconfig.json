@@ -9,6 +9,9 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     "esModuleInterop": true,
     // esModuleInterop позволяет работать с пакетами, которые используют
     // common js как с обычными пакетами с помощью import
